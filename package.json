@@ -1,0 +1,27 @@
+{
+  "name": "livedoor-blog-picture-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanagiragi/Livedoor-Blog-Picture-Downloader.git"
+  },
+  "author": "yanagiragi",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yanagiragi/Livedoor-Blog-Picture-Downloader/issues"
+  },
+  "homepage": "https://github.com/yanagiragi/Livedoor-Blog-Picture-Downloader#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^16.0.2"
+  }
+}
