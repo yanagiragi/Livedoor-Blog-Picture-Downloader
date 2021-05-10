@@ -10,7 +10,8 @@ const StoragePath = path.join(fileURLToPath(import.meta.url), '..', StorageFolde
 const containerFileName = 'container.json'
 const containerPath = path.join(fileURLToPath(import.meta.url), '..', containerFileName)
 
-const urlBase = 'https://xxxxxxx.blog.jp/'
+const id = process.env.ID
+const urlBase = `https://${id}.blog.jp/`
 
 async function Run () {
 	if (fs.existsSync(StoragePath) === false) {
